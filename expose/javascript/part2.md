@@ -11,10 +11,11 @@
 11. This function will return an array [50,100,150] which are the prices after the 50% discount has been applied.
 12. 
   a. student.name
-  b. student['Grad Year'
+  b. student['Grad Year']
   c. student.greeting()
   d. student['Favorite Teacher'].name
   e. student.courseLoad[0]
+
 13. 
   a. '3' + 2 = '32'
   b. '3' - 2 = '1'
@@ -24,6 +25,7 @@
   f. false + null = 0
   g. '3' + undefined = '3undefined'
   h. '3' - undefined = 'NaN'
+  
 14.
   a. '2' > 1 = true
   b. '2' < '12' = true
@@ -31,6 +33,9 @@
   d. 2 === '2' = false
   e. true == 2 = true
   f. true === Boolean(2) = false
+ 
 15. The == and === are used for comparison. The == is the equality operator so it compares two values for eqaulity after converting their types. They have to be a common type. The '===' operator is a strict equality that compares two values but unlike == no conversion is done. They must be the same type to be considered equal. 
-17. 
+
+17. The result will be a new array [2,4,6] because you will multiply each element in the original array [1,2,3] times 2. doSomething is passed as the callback function. Then modifyArray will iterate through the array and apply the doSomething function to each element. Lastly it pushes the changed values to the new array that is returned.
+
   

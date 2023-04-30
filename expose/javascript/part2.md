@@ -37,5 +37,5 @@
 15. The == and === are used for comparison. The == is the equality operator so it compares two values for eqaulity after converting their types. They have to be a common type. The '===' operator is a strict equality that compares two values but unlike == no conversion is done. They must be the same type to be considered equal. 
 
 17. The result will be a new array [2,4,6] because you will multiply each element in the original array [1,2,3] times 2. doSomething is passed as the callback function. Then modifyArray will iterate through the array and apply the doSomething function to each element. Lastly it pushes the changed values to the new array that is returned.
-
+19. The output of the above code is 1 4 3 2
   
